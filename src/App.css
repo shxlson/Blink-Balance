@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+/* Controls Section */
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.controls button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background-color: #0056b3;
+}
+
+/* Webcam Feed Section */
+.webcam-feed {
+  margin-bottom: 20px;
+}
+
+.webcam-feed img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Wellness Status Section */
+.wellness-status {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.wellness-status h2 {
+  margin-top: 0;
+  font-size: 24px;
+  color: #007bff;
+}
+
+.wellness-status ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.wellness-status li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* Alerts Section */
+.alerts {
+  background-color: #ffcccc;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.alerts h3 {
+  margin-top: 0;
+  font-size: 20px;
+  color: #ff0000;
+}
+
+.alerts ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.alerts li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
